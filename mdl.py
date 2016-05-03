@@ -113,7 +113,7 @@ def t_INT(t):
     return t
 
 def t_COMMENT(t):
-    r"//.*"
+    r"\#.*"
     return t
 
 def t_CO(t):
